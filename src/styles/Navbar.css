@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(92, 76, 76);
+    overflow-x: hidden;
+}
+
+.container{
+   
+       box-sizing: content-box;
+       background-color:rgb(209,203,193); 
+       border:none;
+       margin-left: -0.5rem;
+       position: absolute;
+       margin-right: 0.5rem;
+       padding-right: 2rem;
+       margin-top: -0.5rem;
+       
+       
+      
+}
+
+.navbrand{
+
+margin-top: 3rem;
+position: absolute;
+
+
+}
+.navlink{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+.navlist{
+    
+    margin-left: 72rem;
+    list-style: none;
+    
+}
+
