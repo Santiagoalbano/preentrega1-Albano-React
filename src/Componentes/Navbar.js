@@ -7,11 +7,11 @@ export const Navbar = () => {
     return(
 <nav className="Navbar">
     <Link to='/'>
-        <h3>Ecommerce</h3>
+        <h3>Floreria Sorella</h3>
     </Link>
     <div className="Categorias">
-        <NavLink to={`/category/celular`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Celulares</NavLink>
-        <NavLink to={`/category/Tablet`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Tablet</NavLink>
+        <NavLink to={`/category/Hibrida`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Hibrida</NavLink>
+        <NavLink to={`/category/Realeza`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Realeza</NavLink>
     </div>
     <Cartwidget />
     <Navbar />
